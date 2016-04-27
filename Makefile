@@ -1,2 +1,2 @@
-disable-dhe.xpi: install.rdf bootstrap.js
+disable-3des.xpi: install.rdf bootstrap.js
 	zip -9 $@ $?

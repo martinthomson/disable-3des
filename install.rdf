@@ -5,7 +5,7 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
-    <em:id>5aa55fd5-6e61-4896-b186-fdc6f298ec92@mozilla</em:id>
+    <em:id>17dd0163-9ac0-49ff-9b02-cbf36b9462f6@mozilla</em:id>
     <em:version>0.1.1</em:version>
     <em:type>2</em:type>
     <em:bootstrap>true</em:bootstrap>
@@ -16,7 +16,7 @@
       <Description>
         <em:id>toolkit@mozilla.org</em:id>
         <em:minVersion>20.0</em:minVersion>
-        <em:maxVersion>38.*</em:maxVersion>
+        <em:maxVersion>54.*</em:maxVersion>
       </Description>
     </em:targetApplication>
 
@@ -25,13 +25,13 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>20.0</em:minVersion>
-        <em:maxVersion>38.*</em:maxVersion>
+        <em:maxVersion>50.*</em:maxVersion>
       </Description>
     </em:targetApplication>
 
     <!-- Front End MetaData -->
-    <em:name>Disable DHE</em:name>
-    <em:description>Disables ephemeral Diffie-Hellman cipher suites that are vulnerable to the logjam attack.</em:description>
+    <em:name>Disable Triple-DES</em:name>
+    <em:description>Disables Triple-DES cipher suites.</em:description>
     <em:creator>Mozilla</em:creator>
 
   </Description>
